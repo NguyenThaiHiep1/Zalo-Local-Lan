@@ -71,6 +71,97 @@ Khác với các ứng dụng chat thông thường, ứng dụng này hoạt đ
 ---
 
 **Developed by Nguyễn Thái Hiệp** *Project for educational and internal security purposes.*
+
+Here is the professional English translation, formatted specifically for a **GitHub README.md** file. I have used standard technical terminology to make it look polished and credible.
+
+---
+
+# 🛡️ Zalo Local LAN (Military Crypto Suite)
+
+> **"All-in-One" Internal Communication & Data Security Solution**
+> *Absolute Safety | Zero Internet Required | End-to-End Encryption*
+![Java](https://img.shields.io/badge/Language-Java_Swing-orange?style=for-the-badge&logo=java)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)
+![Security](https://img.shields.io/badge/Security-AES256_RSA2048-green?style=for-the-badge&logo=guard)
+![Hash](https://img.shields.io/badge/Hashing-SHA3--512-red?style=for-the-badge&logo=shield)
+
+## 📖 Introduction
+
+**Zalo Local LAN** is a specialized software suite developed to address information security challenges in enterprise environments or organizations that demand high privacy.
+
+Unlike standard chat applications, this software operates **strictly within a closed internal network (LAN/WiFi)**, completely eliminating the risks of eavesdropping, tracking, or data leakage to the Internet. The system features an integrated **Auto-Build** capability, allowing users to simply "click and run" without complex installation procedures.
+
+---
+
+## 🚀 Key Features
+
+### 1. 📞 Secure LAN Comms (Communication System)
+
+* **P2P Chat:** Real-time messaging over LAN with **End-to-End Encryption**.
+* **Voice Call (VoIP):** High-quality, low-latency internal voice calls.
+* **High-Speed File Transfer:** Transfer massive files directly between machines (speeds up to **1Gbps**) without passing through any intermediate server.
+
+### 2. 📂 File Vault (Data Security)
+
+* **Military-Grade Encryption:** Encrypts all file types (Word, Excel, PDF, Images, etc.) using the **AES-256 GCM** algorithm.
+* **Digital Signatures:** Integrated **RSA-2048** signatures to ensure data integrity (prevents unauthorized tampering).
+* **Stream Cipher:** Optimized mechanism to support encryption/decryption of very large files without RAM overflow.
+
+### 3. 📝 Text Crypto (Text Encryption)
+
+* A utility tool to encrypt plain text messages into ciphertext strings (Base64).
+* Allows for safe transmission of sensitive content via insecure channels (Zalo, Messenger, Email...).
+
+### 4. ⚡ Auto-Deployment (Automation)
+
+* **One-Click Run:** Smart startup file (`RUN.bat`) automatically checks the system environment.
+* **Auto-Fix:** Automatically downloads and installs **Java (JDK 21)** if it is missing from the machine.
+* **Native Experience:** Automatically compiles and generates an `.exe` file for a smooth experience on Windows.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Core Language:** Java (Core + Swing GUI).
+* **Scripting:** Windows Batch Script (for the automated Launcher system).
+* **Encryption:**
+* *Symmetric:* AES-256 (GCM Mode).
+* *Asymmetric:* RSA-2048.
+
+
+* **Hashing:** PBKDF2WithHmacSHA512.
+* **Networking:** Java Socket (TCP & UDP).
+
+---
+
+## 📥 Installation & Usage Guide
+
+### Prerequisites
+
+* **OS:** Windows 10 / 11 (64-bit).
+* **Network:** Both computers must be connected to the same LAN or WiFi network.
+
+### How to Run
+
+1. **Download:** Get the full Source Code (Download ZIP) or the Release package.
+2. **Extract:** Unzip the file into a folder.
+3. **Run:** Open the `RUN.bat` file (Right-click > **Run as Administrator** is recommended for stability).
+4. **Wait:** The system will automatically set up the environment and launch the application.
+
+> **Note:** If your computer does not have Java installed, the application will automatically download it. Please follow the instructions on the command prompt (Black screen).
+
+---
+
+## ⚠️ Security Notes
+
+1. **Channel Password:** To connect two machines, you MUST enter the exact same **"Channel Key"** (Khóa kênh) in the Network Settings tab on both devices.
+2. **File Keys:** Generated security keys are automatically saved in the `History_Keys.txt` file. **Keep this file safe!** If you lose it, you will lose access to your encrypted data permanently.
+
+---
+
+**Developed by Nguyễn Thái Hiệp**
+*Project for educational and internal security purposes.*
+
 <img width="1919" height="1030" alt="Screenshot 2026-01-18 113143" src="https://github.com/user-attachments/assets/b0ebd219-b08f-4728-9570-394fcabbaf6e" />
 <img width="1919" height="1033" alt="Screenshot 2026-01-18 113133" src="https://github.com/user-attachments/assets/012f5e12-f5db-458e-931e-5c41972ee73d" />
 <img width="1919" height="1031" alt="Screenshot 2026-01-18 113151" src="https://github.com/user-attachments/assets/e3fbe836-b5bd-4439-9db7-ed355d9ab6a7" />
