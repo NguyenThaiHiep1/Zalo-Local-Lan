@@ -1,47 +1,75 @@
-1. Giới thiệu chung
-Zalo Local LAN là một bộ công cụ phần mềm chuyên dụng được phát triển nhằm giải quyết vấn đề bảo mật thông tin trong môi trường doanh nghiệp hoặc tổ chức yêu cầu tính riêng tư cao. Khác với các ứng dụng OTT thông thường (như Zalo, Telegram), Zalo Local LAN hoạt động khép kín trong mạng nội bộ, loại bỏ hoàn toàn nguy cơ bị nghe lén hoặc rò rỉ dữ liệu ra bên ngoài Internet.
+# 🛡️ Zalo Local LAN (Military Crypto Suite)
 
-2. Các tính năng cốt lõi (3 Module chính)
-Module 1: Hệ thống liên lạc thời gian thực (Secure LAN Comms)
+> **Giải pháp liên lạc & bảo mật dữ liệu nội bộ "All-in-One" - An toàn tuyệt đối, không cần Internet.**
 
-Nhắn tin nội bộ: Gửi tin nhắn văn bản được mã hóa hai đầu (End-to-End Encryption) qua giao thức UDP/TCP.
+![Java](https://img.shields.io/badge/Language-Java_Swing-orange?style=for-the-badge&logo=java)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)
+![Security](https://img.shields.io/badge/Security-AES256_RSA2048-green?style=for-the-badge&logo=guard)
 
-Voice Call (Gọi điện): Tính năng đàm thoại trực tiếp giữa các máy tính trong mạng với chất lượng âm thanh ổn định, hỗ trợ báo cuộc gọi đến/đi.
+## 📖 Giới thiệu
 
-Truyền tải tập tin: Gửi file dung lượng lớn trực tiếp giữa hai máy tính (Peer-to-Peer) với tốc độ mạng LAN (lên tới 1Gbps) mà không cần upload lên Cloud.
+**Zalo Local LAN** là bộ công cụ phần mềm chuyên dụng được phát triển để giải quyết vấn đề bảo mật thông tin trong môi trường doanh nghiệp hoặc tổ chức yêu cầu tính riêng tư cao. 
 
-Module 2: Két sắt dữ liệu (File Vault)
+Khác với các ứng dụng chat thông thường, ứng dụng này hoạt động **khép kín trong mạng nội bộ (LAN/Wifi)**, loại bỏ hoàn toàn nguy cơ bị nghe lén, theo dõi hay rò rỉ dữ liệu ra Internet. Hệ thống tích hợp khả năng tự động đóng gói (Auto-Build) giúp người dùng chỉ cần "bấm là chạy" mà không cần cài đặt phức tạp.
 
-Cung cấp công cụ để người dùng tự bảo vệ các tệp tin quan trọng (Word, Excel, PDF, Ảnh...).
+---
 
-Sử dụng cơ chế mã hóa dòng (Stream Cipher) giúp xử lý file dung lượng lớn mà không ngốn RAM.
+## 🚀 Tính năng nổi bật
 
-Tích hợp chữ ký số RSA để đảm bảo tính toàn vẹn của file (chống chỉnh sửa trái phép).
+### 1. 📞 Hệ thống liên lạc bảo mật (Secure LAN Comms)
+- **Chat P2P:** Nhắn tin thời gian thực qua mạng LAN, mã hóa đầu cuối (End-to-End).
+- **Voice Call (VoIP):** Gọi điện thoại nội bộ chất lượng cao, độ trễ thấp.
+- **Gửi File siêu tốc:** Truyền tải file dung lượng lớn trực tiếp giữa các máy (tốc độ lên tới 1Gbps) không qua máy chủ trung gian.
 
-Module 3: Mã hóa văn bản (Text Crypto)
+### 2. 📂 Két sắt dữ liệu (File Vault)
+- Mã hóa mọi loại tập tin (Word, Excel, PDF, Ảnh...) bằng thuật toán **AES-256 GCM**.
+- Tích hợp **Chữ ký số RSA-2048** để đảm bảo tính toàn vẹn (chống chỉnh sửa trái phép).
+- Cơ chế mã hóa luồng (Stream Cipher) hỗ trợ file dung lượng lớn.
 
-Công cụ tiện ích giúp mã hóa các đoạn văn bản nhạy cảm thành chuỗi ký tự ngẫu nhiên (Base64) để gửi an toàn qua các kênh chat khác (như Zalo thường, Facebook, Email).
+### 3. 📝 Mã hóa văn bản (Text Crypto)
+- Công cụ tiện ích giúp mã hóa tin nhắn văn bản thành chuỗi mật mã (Base64) để gửi an toàn qua các kênh khác (Zalo, Messenger, Email...).
 
-3. Công nghệ & Bảo mật
-Dự án được xây dựng trên nền tảng Java Core vững chắc, áp dụng các tiêu chuẩn mật mã học hiện đại nhất:
+### 4. ⚡ Tự động hóa (Auto-Deployment)
+- **One-Click Run:** File khởi động thông minh (`RUN.bat`) tự động kiểm tra môi trường.
+- **Auto-Fix:** Tự động tải và cài đặt Java (JDK 21) nếu máy chưa có.
+- **Native Experience:** Tự động biên dịch và tạo file `.exe` để chạy mượt mà trên Windows.
 
-Mã hóa đối xứng: AES-256 chế độ GCM (Galois/Counter Mode) - Chuẩn bảo mật cao nhất hiện nay, đảm bảo cả tính bí mật và tính xác thực dữ liệu.
+---
 
-Mã hóa bất đối xứng: RSA-2048 dùng để thiết lập khóa phiên và ký số.
+## 🛠️ Công nghệ sử dụng
 
-Dẫn xuất khóa: PBKDF2WithHmacSHA512 giúp chống lại các cuộc tấn công dò mật khẩu (Brute-force).
+* **Ngôn ngữ chính:** Java (Core + Swing GUI).
+* **Scripting:** Windows Batch Script (cho hệ thống Launcher tự động).
+* **Mã hóa:** * Symmetric: AES-256 (GCM Mode).
+    * Asymmetric: RSA-2048.
+    * Hashing: PBKDF2WithHmacSHA512.
+* **Mạng:** Java Socket (TCP & UDP).
 
-Giao thức mạng: Kết hợp UDP (cho Voice/Chat nhanh) và TCP (cho truyền File tin cậy).
+---
 
-4. Ứng dụng thực tế
-Zalo Local LAN phù hợp cho:
+## 📥 Hướng dẫn cài đặt & Sử dụng
 
-Văn phòng công ty muốn trao đổi nội bộ mà không sợ lộ bí mật kinh doanh.
+### Yêu cầu hệ thống
+* Hệ điều hành: Windows 10 / 11 (64-bit).
+* Mạng: Kết nối LAN hoặc Wifi chung.
 
-Các môi trường làm việc không có Internet (Công trường, Hầm mỏ, Khu quân sự).
+### Cách chạy ứng dụng
+1.  Tải toàn bộ Source Code về máy (Download ZIP).
+2.  Giải nén ra một thư mục.
+3.  Chạy file **`RUN.bat`** (Khuyến khích chạy dưới quyền *Administrator* để ổn định nhất).
+4.  Hệ thống sẽ tự động thiết lập môi trường và khởi động ứng dụng.
 
-Cá nhân muốn có công cụ mã hóa dữ liệu riêng tư trên máy tính cá nhân.
+> **Lưu ý:** Nếu máy chưa có Java, ứng dụng sẽ tự động tải về. Vui lòng làm theo hướng dẫn trên màn hình đen (CMD).
 
+---
+
+## ⚠️ Lưu ý bảo mật
+* **Mật khẩu kênh chat:** Để 2 máy nhìn thấy nhau, bắt buộc phải nhập **"Khóa kênh"** giống hệt nhau trong Tab cài đặt mạng.
+* **File Key:** Các khóa bảo mật được sinh ra sẽ tự động lưu vào file `History_Keys.txt`. Hãy giữ file này cẩn thận nếu không muốn mất dữ liệu vĩnh viễn.
+
+---
+
+**Developed by Nguyễn Thái Hiệp** *Project for educational and internal security purposes.*
 <img width="1919" height="1030" alt="Screenshot 2026-01-18 113143" src="https://github.com/user-attachments/assets/b0ebd219-b08f-4728-9570-394fcabbaf6e" />
 <img width="1919" height="1033" alt="Screenshot 2026-01-18 113133" src="https://github.com/user-attachments/assets/012f5e12-f5db-458e-931e-5c41972ee73d" />
 <img width="1919" height="1031" alt="Screenshot 2026-01-18 113151" src="https://github.com/user-attachments/assets/e3fbe836-b5bd-4439-9db7-ed355d9ab6a7" />
