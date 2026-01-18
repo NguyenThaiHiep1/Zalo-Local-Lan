@@ -1,0 +1,125 @@
+**Hướng dẫn sử dụng chi tiết (Dành cho người mới)**.
+
+---
+
+# HƯỚNG DẪN SỬ DỤNG: HỆ THỐNG MÃ HÓA QUÂN SỰ (MILITARY CRYPTO SUITE)
+
+Chào mừng bạn sử dụng bộ công cụ bảo mật đa năng. Ứng dụng này giúp bạn mã hóa tin nhắn, khóa file an toàn và liên lạc nội bộ (LAN) mà không sợ bị nghe lén.
+
+## I. CÁCH CÀI ĐẶT VÀ KHỞI ĐỘNG (Làm lần đầu tiên)
+
+Bạn không cần cài đặt Java phức tạp, hệ thống đã được lập trình để tự động làm việc đó.
+
+1. **Bước 1:** Tải toàn bộ thư mục về máy và giải nén.
+2. 
+**Bước 2:** Đảm bảo file `RUN.bat` và file code `GoogleStyleCryptoSuiteNET.java` nằm cùng một chỗ (như trong hình ảnh thư mục bạn thấy).
+
+
+3. **Bước 3:** Nhấn đúp chuột vào file **`RUN.bat`**.
+* *Lưu ý:* Nếu máy bạn chưa có Java, một màn hình đen sẽ hiện ra và tự động tải Java về. Bạn cứ làm theo hướng dẫn trên màn hình, bấm **Next/Install** cho đến khi xong.
+
+
+
+
+4. **Bước 4:** Sau khi xong, ứng dụng sẽ tự động mở lên.
+* *Quan trọng:* Đừng tắt cái cửa sổ màn hình đen đi nhé, cứ để nó chạy ẩn bên dưới.
+
+
+
+---
+
+## II. HƯỚNG DẪN CÁC TÍNH NĂNG
+
+Giao diện ứng dụng có 3 Thẻ (Tab) chính. Dưới đây là cách dùng từng cái:
+
+### 1. TAB 1: MÃ HÓA VĂN BẢN (Gửi tin nhắn mật)
+
+Dùng khi bạn muốn gửi một đoạn chat (ví dụ qua Zalo/Facebook) nhưng không muốn ai đọc được ngoài người nhận.
+
+* **Để Mã Hóa (Biến chữ thường thành mật mã):**
+1. Nhập nội dung cần giấu vào ô bên trái (Văn bản gốc).
+2. Nhập **Mật khẩu** vào ô "Khóa bí mật" (hoặc bấm nút màu vàng **Tạo Key** để máy tự sinh mật khẩu khó).
+3. Bấm nút **⛿ MÃ HÓA**.
+4. Copy đoạn mã loằng ngoằng ở ô bên phải và gửi cho người nhận. (Nhớ gửi riêng mật khẩu cho họ).
+
+
+* **Để Giải Mã (Dịch mật mã sang tiếng Việt):**
+1. Dán đoạn mã nhận được vào ô bên trái.
+2. Nhập đúng mật khẩu mà người gửi đã cung cấp.
+3. Bấm nút **🔓 GIẢI MÃ**. Nội dung thật sẽ hiện ra bên phải.
+
+
+
+---
+
+### 2. TAB 2: KÉT SẮT FILE (Khóa file tài liệu, ảnh)
+
+Dùng để bảo vệ file Word, Excel, Ảnh, PDF...
+
+* **Để Khóa File:**
+1. Dòng "File Nguồn": Bấm **Chọn File** để tìm file bạn muốn bảo vệ.
+2. Dòng "Lưu Tại": Bấm **Chọn Nơi Lưu** và đặt tên cho file sau khi khóa (Ví dụ: `TaiLieuMat.enc`).
+3. Nhập **Mật Khẩu** (Hoặc bấm **Sinh Key**).
+4. Bấm nút **MÃ HÓA FILE**. Chờ thanh chạy xong là an toàn.
+
+
+* **Để Mở File (Giải mã):**
+1. Chọn file đã bị khóa ở dòng "File Nguồn".
+2. Chọn nơi sẽ lưu file sau khi mở ở dòng "Lưu Tại" (đặt đúng đuôi file gốc, ví dụ `.docx` hay `.jpg`).
+3. Nhập đúng mật khẩu cũ.
+4. Bấm nút **GIẢI MÃ FILE**.
+
+
+
+---
+
+### 3. TAB 3: LIÊN LẠC & GỬI FILE (Chat nội bộ LAN)
+
+Dùng để chat, gọi điện, gửi file giữa 2 máy tính dùng chung một mạng Wifi hoặc dây LAN (không cần Internet).
+
+**Bước A: Cấu hình (Cả 2 người phải làm)**
+
+1. **Tên hiển thị:** Nhập tên bạn (Ví dụ: HiepKeToan).
+2. **Khóa kênh (Bắt buộc):** Nhập một mật khẩu chung. Cả 2 máy phải nhập **Y HỆT NHAU** mới thấy nhau.
+3. Bấm nút **KÍCH HOẠT (GO ONLINE)**. Nếu thấy chữ **ONLINE** màu xanh lá là thành công.
+
+**Bước B: Kết nối**
+
+1. Hỏi xem địa chỉ IP của máy kia là gì (Ví dụ: `192.168.1.15`).
+2. Nhập IP đó vào ô **IP Đối phương**.
+3. Cổng chính: Để nguyên `8888` (trừ khi IT bảo đổi).
+
+**Bước C: Sử dụng**
+
+* **Chat:** Nhập tin nhắn ở dưới và bấm Gửi.
+* **Gọi điện:** Bấm nút **📞 GỌI ĐIỆN**. Máy bên kia sẽ hiện thông báo, họ bấm **Yes** là hai bên nói chuyện được (như gọi Zalo).
+* **Gửi File:** Bấm **📎 GỬI FILE**, chọn file và chờ bên kia nhận. File nhận được nằm trong thư mục `Received_Files`.
+
+---
+
+## III. TÍNH NĂNG TỰ ĐỘNG LƯU KEY (SỔ TAY MẬT KHẨU)
+
+Đây là tính năng đặc biệt giúp bạn không bị quên mật khẩu.
+
+* Mỗi khi bạn bấm nút **Tạo Key** (Tab 1), **Sinh Key** (Tab 2) hoặc **Lưu Key** (Tab 3).
+* Hệ thống sẽ tự động ghi lại mật khẩu đó vào một file tên là `History_Keys.txt` nằm cùng thư mục với ứng dụng.
+* **Cách dùng:** Nếu lỡ quên mật khẩu vừa tạo, hãy mở file `History_Keys.txt` lên để xem lại giờ giấc và mật khẩu đã tạo.
+
+---
+
+## IV. XỬ LÝ SỰ CỐ THƯỜNG GẶP
+
+1. **Bấm RUN.bat mà tắt ngay:**
+* Có thể do máy chưa cài Java hoặc lỗi đường dẫn. Thử chuột phải vào `RUN.bat` chọn *Run as Administrator*.
+
+
+2. **Chat LAN không thấy nhau:**
+* Kiểm tra xem 2 máy có chung Wifi không?
+* Kiểm tra xem "Khóa kênh" có giống hệt nhau không?
+
+3. **Gọi điện bị vọng tiếng:**
+* Nên đeo tai nghe khi sử dụng tính năng gọi điện để âm thanh tốt nhất.
+
+---
+
+*Chúc bạn sử dụng an toàn và bảo mật!*
