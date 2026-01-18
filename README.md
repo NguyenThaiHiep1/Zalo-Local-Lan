@@ -5,6 +5,7 @@
 ![Java](https://img.shields.io/badge/Language-Java_Swing-orange?style=for-the-badge&logo=java)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)
 ![Security](https://img.shields.io/badge/Security-AES256_RSA2048-green?style=for-the-badge&logo=guard)
+![Hash](https://img.shields.io/badge/Hashing-SHA3--512-red?style=for-the-badge&logo=shield)
 
 ## 📖 Giới thiệu
 
