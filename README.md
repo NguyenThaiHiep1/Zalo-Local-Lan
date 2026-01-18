@@ -78,3 +78,4 @@ Khác với các ứng dụng chat thông thường, ứng dụng này hoạt đ
 <img width="350" height="148" alt="Screenshot 2026-01-18 113536" src="https://github.com/user-attachments/assets/8b19805d-7af6-4c0e-b366-aaa76cc93f52" />
 <img width="346" height="150" alt="Screenshot 2026-01-18 113512" src="https://github.com/user-attachments/assets/42dbe344-c767-41b8-b58c-04a4c66f3fc2" />
 <img width="350" height="148" alt="Screenshot 2026-01-18 113429" src="https://github.com/user-attachments/assets/0b31ca8e-a024-4cd1-9d6b-1d58c1665c9d" />
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/db61ce54-263b-4e35-af31-3fd057d487ac" />
